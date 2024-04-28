@@ -3,12 +3,12 @@ body{
     font-size: 15pt;
     font-style: normal;
     text-align: center;
-    background-color: rgb(35, 212, 236);
+    background-color: rgb(43, 44, 44);
 
 }
 
 header{
-    color: rgb(221, 85, 44);
+    color: rgb(19, 214, 29);
     text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.507);
     justify-content: start;
 }
@@ -42,7 +42,7 @@ header{
     
 }
 #button_one{
-    border: 1px solid rgb(0, 132, 255);
+    border: 1px solid rgb(21, 107, 3);
     padding: 5px;
     margin: 5px;
     border-radius: 10px; 
@@ -53,7 +53,7 @@ header{
 }
 #button_two{
     display: none;
-    border: 1px solid rgb(0, 132, 255);
+    border: 1px solid rgb(21, 107, 3);
     padding: 5px;
     margin: 5px;
     border-radius: 10px; 
