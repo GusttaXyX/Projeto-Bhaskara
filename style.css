@@ -24,11 +24,32 @@ header{
     margin-right: normal ;
     margin-bottom: 10px;
 }
-#calculo{
-    padding: 3px;
-    margin: 3px;
-    font-weight: bold;
+
+.calculo {
+    padding: 8px;
+    margin: 5px ;
+    border: 1px solid #ccc;  /* Borda suave */
+    border-radius: 5px;
+    background-color: #f9f9f9;  /* Fundo levemente cinza */
+    font-size: 11pt;
+    width: calc(100% - 5px);  /* Ajusta o tamanho do input */
+    transition: border-color 0.3s, background-color 0.3s;
 }
+
+/* Efeito ao focar na caixa de entrada */
+.calculo:focus {
+    border-color: rgb(0, 0, 0);  /* Cor de borda ao focar */
+    background-color: #fff;  /* Fundo branco ao focar */
+    outline: none;  /* Remove o contorno padrão do navegador */
+}
+
+/* Remove os spinners nos navegadores (Chrome, Safari, Edge) */
+.calculo::-webkit-outer-spin-button,
+.calculo::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
 #res_delta_sub{
    
     margin-bottom: 3px;
