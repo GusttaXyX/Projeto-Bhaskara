@@ -50,12 +50,6 @@ header{
     margin: 0;
 }
 
-/* Remove os spinners no Firefox */
-.calculo[type="number"] {
-    -moz-appearance: textfield;
-}
-
-
 #res_delta_sub{
    
     margin-bottom: 3px;
