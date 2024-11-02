@@ -41,31 +41,37 @@ header{
     width: 135px;
     
 }
-#button_one{
+
+/* Efeito de nos botões*/
+
+.custom-button {
     border: 1px solid rgb(21, 107, 3);
     padding: 5px;
     margin: 5px;
-    border-radius: 10px; 
-    background-color: unset;
+    border-radius: 10px;
+    background-color: #f0f0f0;
     font-size: 18pt;
     font-weight: bolder;
     margin-bottom: 3px;
-}
-#button_two{
-    display: none;
-    border: 1px solid rgb(21, 107, 3);
-    padding: 5px;
-    margin: 5px;
-    border-radius: 10px; 
-    background-color: unset;
-    font-size: 18pt;
-    font-weight: bolder;
-    margin-bottom: 3px;
+    transition: background-color 0.3s, color 0.3s;
 }
 
-#button_one.hover{
+
+.custom-button:hover {
+    background-color: rgb(4, 107, 27);
+    color: white;
     cursor: pointer;
 }
+
+.custom-button:focus {
+    outline: 2px solid rgb(0, 0, 0);
+}
+
+
+#button_two {
+    display: none;
+}
+
 
 #x1{
     margin-bottom: 3px;
